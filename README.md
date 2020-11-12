@@ -1,7 +1,11 @@
 password = 'abcd1234'
+
 i = 3
+
 while True:
+
 	pwd = input('Password: ')
+	
 	if pwd == password:
 		print('Password Correct!')
 		break
